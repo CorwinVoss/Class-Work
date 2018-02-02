@@ -1,0 +1,11 @@
+Evaluate the following and use print statements to verify results.
+What is the value of Var1,Var2,Var3 at the end of this code.  
+Why does this happen?  What specifically is the cause of these errors?  
+float Var1 = 1-3*(4/3.0f-1);
+double Var2 = (12/11.0-1) *11;
+float Var3 = .1f + .1f + .1f +.1f+.1f +.1f + .1f + .1f +.1f+.1f -1;
+
+Ans:
+Var1 = 0; Is wrong because it will never be 0 when there is a repeating decimal in a equation.
+Var2 = 1; Is wrong because you cant put a repeating decimal in the code.
+Var3 = 0; You cant have .1 in binary. so when you subtract 1 from 1f it would not be 1f because you cant actually have .1f in binary

@@ -1,0 +1,40 @@
+We have said in class that instructions need to be executed in a certain order.  However in reality it is possible and often the case that the processor executes the instructions out of order or simultaneously and just ensures that the data in memory gets written in order.
+
+For the following program try and figure out what instuctions are dependent on each other such that the order of the execution needs to be done in order relative and which of the instructions can be done at the same time/out of order, list all instructions that could be completed in each processing Cycle, (assume each instruction executes in one cycle and an infinite number of instructions can execute in one cycle). 
+
+		For Example 
+		int var1 = 12;
+		int var2 = 21;
+		var1 = var1 + var2; 
+		int var3 = 13;
+
+		Example Answer:
+		Cycle 1 instructions:
+		int var1 = 12;
+		int var2 = 21;
+		int var3 = 13;
+
+		Cycle 2 instructions:
+		var1 = var1 + var2;
+
+Program:
+
+int var1 = 12; 1
+int var2 = 21; 1
+var1 = var1+var1; 2
+int var3 = 32; 1
+var2 = var2 +var1; 3
+int var4 = 20; 1
+int var5 = 11; 1
+var5 = var4 + var5; 2
+var3 = var5+var3; 3
+var2 = var1 + var3; 4
+var5 = var2 +var3; 5
+int var6 = var1; 3
+var4 = 3 +var6; 4
+int var7 = var6 +3; 4
+var3 = 4+8; 1
+var4 = var3 +8; 2
+
+
+

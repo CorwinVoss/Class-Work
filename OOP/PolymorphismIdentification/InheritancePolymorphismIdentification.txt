@@ -1,0 +1,90 @@
+/* Learning Objectives:
+	-understand what Polymorphism is and how it allows the same function name behave differently based on the object's class.
+
+	-be able to identify which version of a function will be ran in a variety of cases.
+	-Identify which functions will be inherited in any given derived class.
+
+*/
+
+
+For this assignment if you want to add all of the files to a project, you can create a new project and add existing files the project.  Let me know if you need help doing this.  However it is not needed to create a project for this assignment.
+
+What do the following function calls print out for objects of the corresponding classes.
+If the method does not exist for the class, say N/A.
+
+The Animal class is done as an example
+
+Animal:
+	MakeSound: "Grrrr"
+	SeeLaser: N/A
+	PlayFetch: N/A
+	
+Cat:
+	MakeSound:
+	PlayFetch:
+	LayOnLap:
+	BeHappy:
+	SeeLaser:
+	
+OrangeTabby
+	MakeSound:
+	PlayFetch:
+	LayOnLap:
+	BeHappy:
+	SeeLaser:
+	DunkFaceInMilk:
+	
+RussianBlue
+	MakeSound:
+	PlayFetch:
+	LayOnLap:
+	BeHappy:
+	SeeLaser:
+	DunkFaceInMilk:
+	
+Himalayan
+	MakeSound:
+	PlayFetch:
+	LayOnLap:
+	BeHappy:
+	SeeLaser:
+	DunkFaceInMilk:
+	
+Garfield
+	MakeSound:
+	PlayFetch:
+	LayOnLap:
+	BeHappy:
+	SeeLaser:
+	DunkFaceInMilk:
+	
+Dog
+	MakeSound:
+	PlayFetch:
+	FindDrugs:
+	SeeLaser:
+	
+GermanShepard
+	MakeSound:
+	PlayFetch:
+	FindDrugs:
+	SeeLaser:
+
+Bulldog
+	MakeSound:
+	PlayFetch:
+	FindDrugs:
+	SeeLaser:
+	
+BostonTerrier
+	MakeSound:
+	PlayFetch:
+	FindDrugs:
+	SeeLaser:
+	
+DogMeat
+	MakeSound:
+	PlayFetch:
+	FindDrugs:
+	SeeLaser:
+	

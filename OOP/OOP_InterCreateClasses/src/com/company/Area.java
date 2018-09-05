@@ -8,8 +8,13 @@ import java.util.Random;
  */
 public class Area {
     String type;
-    ArrayList<Enemy> monsterType;
+    ArrayList<Enemy> monsterType = new ArrayList<>();
     Random rand;
+
+    public Area(){
+        monsterType = new ArrayList<>();
+        rand = new Random();
+    }
 
     public Enemy enemyEncounter(){
         int randInt = rand.nextInt(2);

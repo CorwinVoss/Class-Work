@@ -9,9 +9,8 @@ import java.util.Random;
 public class PlainsArea extends Area{
 
     public PlainsArea(){
+        super();
         type = "plains";
-        Random rand = new Random();
-        monsterType = new ArrayList();
         monsterType.add(new Enemy(6, 8, 3, "Lion"));
         monsterType.add(new Enemy(10, 5 , 7,"Elephant"));
     }

@@ -6,15 +6,10 @@ package com.company;
 public class Entity {
     int health;
     int strength;
-    int defence;
-
-    public Entity(int Health, int Strength, int Defence){
-        health = Health;
-        strength = Strength;
-        defence = Defence;
-    }
+    int defense;
+    String name;
 
     public void TakeDamage(Entity entity){
-        health -= (entity.strength - defence);
+        health -= (entity.strength - defense);
     }
 }

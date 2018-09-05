@@ -9,9 +9,9 @@ import java.util.Random;
 public class FrostArea extends Area {
 
     public FrostArea() {
+        super();
         type = "Frost";
-        Random rand = new Random();
-        monsterType = new ArrayList();
+
         monsterType.add(new Enemy(1,0,0,"Snowman"));
         monsterType.add(new Enemy(8,4,5,"Yeti"));
 

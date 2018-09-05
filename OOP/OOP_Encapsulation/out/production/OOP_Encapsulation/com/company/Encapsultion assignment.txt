@@ -1,0 +1,24 @@
+Learning Objectives:
+   -Learn how to use the protected private and public modifiers to change which files can see what methods/properties.
+
+Secondary Objectives:
+   -Review inheritance to know what methods each class can acess.
+
+
+Assignment Description:
+
+Fix the access modifiers so that they are as  restrictive as possible and satisfy the requirements below.
+For each change that you make you will need to list it here and explain why you made the change.
+
+-You should be able to create an object of each of the classes.
+-The MakeSound method should not be able to be called besides by other methods in one of the derived classes.
+-The DunkFaceInMilk method should only be available to the himalayan class.
+-all other methods should be accessible everywhere
+-the hasDrugs property of the GermanShepard class should be accessible in its class and its derived classes.
+-all other properties should only be accessible in their class and not their derived classes
+
+
+Example:
+	1.Switched BostonTerrier Constructor to public because it needs to be able to be called from another file to create an object of the BostonTerrier Class
+
+
